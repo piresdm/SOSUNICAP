@@ -1,0 +1,160 @@
+/*Arquivo Páginas 4 (Login sem CPF),5 (Histórico) e 6 (Pesquisa - sem CPF)*/
+
+/*Geral*/
+
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    color: #696969;
+    margin:auto;
+}
+
+
+/*Cabeçalho*/
+
+header{
+    position:relative;
+}
+img#cabecalho{
+    width: 100%;
+}
+img#english{
+    position: absolute;
+    right: 10px;
+    top: 10px;
+}
+h2{
+    color:#820707;
+    font-weight: 500;
+    font-size: 26px;
+    text-align: center;
+}
+
+/*Corpo*/
+
+#logomarca{
+    display: block;
+    margin-left: auto;
+    margin-right: auto; 
+    margin-top: 50px;
+    
+}
+#chamado{ /*página 4*/
+    text-align: center;
+}
+.botoesprincipais{ /*Página 4*/
+    background-color:#820707;
+    color: white;
+    font-size: 18px;
+    border-radius: 10px;
+    border:none;
+    height:45px;
+    width: 180px;
+    margin: 5px;
+}
+.botoesprincipais:hover{
+    cursor:pointer;
+}
+#pesquisa{ /*Página 5*/
+    text-align: center;
+    position: relative;
+   
+}
+img#lupa{ /*Página 5*/
+    margin-top: 100px;
+    padding: 8px;
+    border: 1px solid #696969; 
+    position: absolute;
+    left: 530px;
+    top:-55px;
+}
+input#pag5{ /*Página 5*/
+    height: 30px;
+    width: 250px;
+    font-size: 18px;
+    position: absolute;
+    top:45px;
+    left:565px;
+}
+#pesquisa2{ /*Página 6*/
+    text-align: center;
+    position: relative;
+}
+img#lupa2{ /*Página 6*/
+    margin-top: 100px;
+    padding: 8px;
+    border: 1px solid #696969; 
+    position: absolute;
+    left: 525px;
+    top:-35px;
+}
+
+input#pag6{ /*Página 6*/
+    height: 30px;
+    width: 250px;
+    font-size: 18px;
+    position: absolute;
+    top:65px;
+    left:560px;
+}
+div#chamadosanteriores{ /*Página 5*/
+    background-color: #820707;
+    color:white;
+    width: 700px;
+    height: 80px;
+    border-radius: 10px;
+    margin: 80px auto auto auto;
+    padding-left: 30px;
+    padding-top: 20px;
+    position: relative;
+}
+div#link{ /*Página 5*/
+    color: white;
+    width: 100px;
+    height: 30px;
+    position:absolute;
+    right: 20px;
+    top:35px;
+}
+div#chamadosanteriores2{ /*Página 5*/
+    background-color: #820707;
+    color:white;
+    width: 700px;
+    height: 80px;
+    border-radius: 10px;
+    margin: 10px auto auto auto;
+    padding-left: 30px;
+    padding-top: 20px;
+    position:relative;
+}
+
+div#link2{ /*Página 5*/
+    color: white;
+    width: 100px;
+    height: 30px;
+    position:absolute;
+    right: 20px;
+    top:35px;
+}
+a#vermais{
+    color: white;
+    text-decoration: none;
+}
+
+div#botoes{
+    
+}
+button{
+    background-color:#696969;
+    color: white;
+    font-size: 16px;
+    border-radius: 10px;
+    border:none;
+    height:35px;
+    width: 120px;
+    margin: 5px;
+    text-align: center;
+}
+button:hover{
+    cursor: pointer;
+}

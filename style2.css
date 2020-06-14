@@ -1,0 +1,84 @@
+/*Arquivo Páginas 7 (Resumo chamado andamento),8 (Resumo chamado encerrado) e 9 (Editar chamado)*/
+
+/*Geral*/
+
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    color: #696969;
+    margin:auto;
+}
+
+
+/*Cabeçalho*/
+
+header{
+    position:relative;
+}
+img#cabecalho{
+    width: 100%;
+}
+img#english{
+    position: absolute;
+    right: 10px;
+    top: 10px;
+}
+h2{
+    color:#820707;
+    font-weight: 500;
+    font-size: 26px;
+    text-align: center;
+}
+
+/*Corpo*/
+
+#logomarca{
+    display: block;
+    margin-left: auto;
+    margin-right: auto; 
+    margin-top: 50px;
+    
+}
+table{
+    text-align: left;
+    margin-left: auto;
+    margin-right: auto; 
+}
+td.esq{
+    padding-right: 40px;
+    padding-bottom: 20px;
+
+}
+td.dir{
+    color:#820707;
+    padding-left: 40px;
+    padding-bottom: 20px;
+    font-weight: 500;
+}
+td.dir2{
+    color:#820707;
+    padding-left: 15px;
+    padding-bottom: 20px;
+    font-weight: 500;
+}
+td.contatoesq{
+    text-align: center;
+}
+
+div#botoes{
+    
+}
+button{
+    background-color:#696969;
+    color: white;
+    font-size: 16px;
+    border-radius: 10px;
+    border:none;
+    height:35px;
+    width: 120px;
+    margin: 5px;
+    text-align: center;
+}
+button:hover{
+    cursor: pointer;
+}
