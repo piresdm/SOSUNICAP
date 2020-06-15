@@ -175,6 +175,12 @@ a#semcpf{
     margin-left: 110px;
 }
 
+.escadas input{
+
+    height:17px;
+    width: 17px;
+}
+
 .paciente, .fichaMedica{
 
     margin-left: 110px
