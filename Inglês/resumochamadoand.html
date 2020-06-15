@@ -58,11 +58,37 @@
                 </tr>
             </table>
             <br>
+            <div class="modalChat hiddenModal" id="modalChat">
+
+           
+                <div class="tituloModal">
+                   Message
+                </div>
+    
+    
+                <p class="mensagemCentral">
+                    Hello, how can we help? 
+                <br>
+                Do you wish to send us any other <br>
+                information about your call?
+                </p>
+    
+                <div class="boxEnvio">
+    
+                   <a href="" class="iconeSoma"><span >&#43</span></a>
+                        
+                    <input type="text" placeholder="Type here your message">
+                    <img src="../img/camera.jpeg" alt="" width="34" height="28" class="iconesModal">
+                    <img src="../img/gravador.jpeg" alt="" width="21" height="28" class="iconesModal">
+    
+                </div>
+    
+            </div>
             <div id="botoes" align="center">
                <a href="novochamado.html"><button>RETURN</button></a>
                <a href="#abrirModalCancelamento"><button>CANCEL</button></a>
                <a href="editarchamado.html"><button>EDIT</button></a>
-               <a><button>CHAT</button></a>
+               <a id="chat"><button>CHAT</button></a>
                
             </div>
             <br><br>
@@ -83,12 +109,19 @@
 
             let btnCancel = document.getElementById("cancelarChamado");
  
-             btnCancel.addEventListener('click', () => {
+            btnCancel.addEventListener('click', () => {
  
                  alert("call canceled successfully")
                  
-             })
+            })
  
+            document.getElementById("chat").addEventListener('click', () => {
+
+                
+                document.getElementById("modalChat").classList.toggle('hiddenModal')
+
+            })
+
          </script>
 
     </body>

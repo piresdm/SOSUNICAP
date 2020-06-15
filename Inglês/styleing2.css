@@ -109,5 +109,84 @@ button:hover{
 }
 
 
+.modalChat{
 
+    width: 407px;
+    height: 350px;
+    border: solid brown 2px;
+    border-radius: 7px;
+    float: right;
+    bottom: 14%;
+    position: fixed;
+    left: 67%;
+    background-color: #ffffff;
+   
+    
+}
+
+.hiddenModal{
+    display: none;
+}
+
+
+.tituloModal{
+    width: 407px;
+    height: 30px;
+    background-color: brown;
+    border-top: solid brown 2px;
+    border: none;
+    color: #ffffff;
+    text-align: center;
+    border-radius:  5px 5px 0 0px;
+}
+
+
+.mensagemCentral{
+    margin-left: 15px;
+    color: #820707;
+    
+}
+
+.boxEnvio{
+
+    margin-top:170px;
+    height: 30px;
+    border-top: solid #820707 1px;
+    border-radius:  0 0 5px 5px;
+    width: 407px;
+    text-align: center;
+    
+}
+
+
+.boxEnvio span  {
+    font-size: 30px;
+    font-weight: bold;
+    color: #820707;
+    position: relative;
+    top: 15%;
+}
+
+.iconeSoma{
+    text-decoration: none;
+}
+
+.boxEnvio input {
+
+    border-radius: 10px;
+    width: 276px;
+    height: 20px;
+    position: relative;
+}
+
+
+.iconesModal{
+   
+    margin-bottom: -08px;
+}
+
+.iconesModal:hover{
+
+    cursor: pointer;
+}
 
