@@ -74,9 +74,23 @@
         
             <p>Você deseja realmente cancelar esse chamado?</p>
         
-            <a href="#cancelarChamado"><button>Sim</button></a>  <a href="#fechar" ><button>Não</button></a>
+            <a href="index.html" id="cancelarChamado"><button>Sim</button></a>  <a href="#fechar" ><button>Não</button></a>
         
         </div>
+
+
+
+        <script>
+
+           let btnCancel = document.getElementById("cancelarChamado");
+
+            btnCancel.addEventListener('click', () => {
+
+                alert("Chamado cancelado com sucesso")
+                
+            })
+
+        </script>
 
 
     </body>
