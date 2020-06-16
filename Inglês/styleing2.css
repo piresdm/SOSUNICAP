@@ -85,8 +85,6 @@ button:hover{
 
 
 .modal{
-
-    
     text-align: center;
     border: solid #707070 2px;
     width: 350px;
@@ -99,7 +97,6 @@ button:hover{
     left: 0; right: 0;
     margin: auto;
     opacity: 0;
-  
 }
 
 .modal:target{
@@ -111,17 +108,16 @@ button:hover{
 
 .modalChat{
 
-    width: 407px;
-    height: 350px;
+    width: 300px;
+    height: 250px;
     border: solid brown 2px;
     border-radius: 7px;
     float: right;
     bottom: 14%;
     position: fixed;
-    left: 67%;
+    left: 70%;
     background-color: #ffffff;
-   
-    
+    font-size: 16px;
 }
 
 .hiddenModal{
@@ -130,7 +126,7 @@ button:hover{
 
 
 .tituloModal{
-    width: 407px;
+    width: 300px;
     height: 30px;
     background-color: brown;
     border-top: solid brown 2px;
@@ -138,6 +134,8 @@ button:hover{
     color: #ffffff;
     text-align: center;
     border-radius:  5px 5px 0 0px;
+    font-weight: 600;
+    line-height:30px 
 }
 
 
@@ -149,44 +147,56 @@ button:hover{
 
 .boxEnvio{
 
-    margin-top:170px;
-    height: 30px;
+    margin-top:100px;
     border-top: solid #820707 1px;
     border-radius:  0 0 5px 5px;
-    width: 407px;
+    width: 300px;
     text-align: center;
+    position: relative;
     
 }
-
 
 .boxEnvio span  {
     font-size: 30px;
     font-weight: bold;
     color: #820707;
-    position: relative;
+    position: absolute;
     top: 15%;
 }
 
 .iconeSoma{
     text-decoration: none;
+    position:absolute;
+    left: 2px;
+    top:-4px;
 }
 
 .boxEnvio input {
 
     border-radius: 10px;
-    width: 276px;
-    height: 20px;
-    position: relative;
+    width: 195px;
+    height: 25px;
+    position: absolute;
+    top:5px;
+    right: 73px;
+    border: 1px solid #820707;
+
+}
+#imgcamera{
+    position:absolute;
+    right: 35px;
+    top: 5px;
 }
 
+ #imggravador{
+     position:absolute;
+     right: 5px;
+     top:8px;
+ }
 
-.iconesModal{
-   
-    margin-bottom: -08px;
-}
-
-.iconesModal:hover{
-
+ #imgcamera:hover{
     cursor: pointer;
 }
-
+#imggravador:hover{
+    cursor: pointer;
+}
