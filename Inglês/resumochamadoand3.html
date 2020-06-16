@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Summary of current call</title>
+        <link rel="stylesheet" href="styleing2.css">
+    </head>
+
+    <body>
+
+        <!--Cabeçalho-->
+
+        <header>
+            <img src="../img/cabeçalho UNICAP.png" id="cabecalho">
+            <a href="../resumochamadoand3.html"><img src="../img/Brazil.jpg" id="portuguese" height="20px"></a>
+        </header> 
+   
+   
+        <!--Corpo-->
+
+        <section>
+            <img id="logomarca" src="../img/logomarca.png" alt="SOS UNICAP" width="150px">
+        </section>
+        <br>
+        
+        <section>
+            <h2>Summary of current call</h2>
+            <br>
+            <table id="resumo">
+                <tr>
+                    <td class="esq">Ticket ID:</td>
+                    <td class="dir">MB3425</td>
+                </tr>
+                <tr>
+                    <td class="esq">Status:</td>
+                    <td class="dir">Ongoing</td>
+                </tr>
+                <tr>
+                    <td class="esq">Type of emergency:</td>
+                    <td class="dir"> Malaise</td>
+                </tr>
+                <tr>
+                    <td class="esq">Detailed location:</td>
+                    <td class="dir"> C Block – 3 floor</td>
+                </tr>
+                <tr>
+                    <td class="esq">Located on stairs:</td>
+                    <td class="dir">Yes</td>
+                </tr>
+                <tr>
+                    <td class="esq">Requester is the patient: </td>
+                    <td class="dir">Yes</td>
+                </tr>
+                <tr>
+                    <td class="esq">Inclusion of medical data:</td>
+                    <td class="dir">Yes</td>
+                </tr>
+            </table>
+            <br>
+            <div class="modalChat hiddenModal" id="modalChat">
+
+           
+                <div class="tituloModal">
+                   Message
+                </div>
+    
+    
+                <p class="mensagemCentral">
+                    Hello, how can we help you? 
+                <br>
+                Do you want to send us any other <br>
+                information about your call?
+                </p>
+    
+                <div class="boxEnvio">
+    
+                    <a href="" class="iconeSoma"> <span>&#43</span></a>
+                          
+                      <input type="text" placeholder="Type here your message">
+                      <img src="../img/camera.jpeg" alt="" width="28" id="imgcamera">
+                      <img src="../img/gravador.jpeg" alt="" width="22" id="imggravador">
+      
+                </div>
+    
+            </div>
+            <div id="botoes" align="center">
+               <a href="logincomcpf.html"><button>RETURN</button></a>
+               <a href="#abrirModalCancelamento"><button>CANCEL</button></a>
+               <a href="editarchamado3.html"><button>EDIT</button></a>
+               <a id="chat"><button>CHAT</button></a>
+               
+            </div>
+            <br><br>
+        </section>
+
+        <div class="modal" id="abrirModalCancelamento" >
+
+            <h2>Cancel</h2>
+        
+            <p>Do you really want to cancel your call?</p>
+        
+            <a href="index.html" id="cancelarChamado"><button>Yes</button></a>  <a href="#fechar" ><button>No</button></a>
+        
+        </div>
+
+
+        <script>
+
+            let btnCancel = document.getElementById("cancelarChamado");
+ 
+            btnCancel.addEventListener('click', () => {
+ 
+                 alert("The call was successfully canceled ")
+                 
+            })
+ 
+            document.getElementById("chat").addEventListener('click', () => {
+
+                
+                document.getElementById("modalChat").classList.toggle('hiddenModal')
+
+            })
+
+         </script>
+
+    </body>
+</html>
