@@ -33,6 +33,11 @@ img#english{
     right: 10px;
     top: 10px;
 }
+img#home{
+    position:absolute;
+    left: 10px;
+    top:117px;
+}
 
 /*Corpo*/
 
