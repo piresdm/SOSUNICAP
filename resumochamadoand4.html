@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="pt">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Resumo Chamado em Andamento</title>
+        <link rel="stylesheet" href="style2.css">
+    </head>
+
+    <body>
+
+        <!--Cabeçalho-->
+
+        <header>
+            <img src="img/cabeçalho UNICAP.png" id="cabecalho">
+            <a href="Inglês/resumochamadoand.html"><img src="img/englishflag.jpg" id="english" height="20px"></a>
+        </header> 
+   
+   
+        <!--Corpo-->
+
+        <section>
+            <img id="logomarca" src="img/logomarca.png" alt="SOS UNICAP" width="150px">
+        </section>
+        <br>
+        
+        <section>
+            <h2>Resumo Chamado Atual</h2>
+            <br>
+            <table id="resumo">
+                <tr>
+                    <td class="esq">Chamado ID:</td>
+                    <td class="dir">MB3425</td>
+                </tr>
+                <tr>
+                    <td class="esq">Status:</td>
+                    <td class="dir">Em Andamento</td>
+                </tr>
+                <tr>
+                    <td class="esq">Tipo de Emergência:</td>
+                    <td class="dir">Mal-estar</td>
+                </tr>
+                <tr>
+                    <td class="esq">Localização Detalhada:</td>
+                    <td class="dir">Bloco C - 3 andar</td>
+                </tr>
+                <tr>
+                    <td class="esq">Localiza-se nas escadas:</td>
+                    <td class="dir">Sim</td>
+                </tr>
+                <tr>
+                    <td class="esq">Solicitante é o paciente:</td>
+                    <td class="dir">Sim</td>
+                </tr>
+                <tr>
+                    <td class="esq">Inclusão de dados médicos:</td>
+                    <td class="dir">Sim</td>
+                </tr>
+            </table>
+            <br>
+            <div class="modalChat hiddenModal" id="modalChat">
+
+           
+                <div class="tituloModal">
+                   Mensagem
+                </div>
+    
+    
+                <p class="mensagemCentral">
+                Olá, em que podemos te ajudar?
+                <br>
+                Deseja nos mandar mais alguma <br>
+                informação sobre o seu chamado?
+                </p>
+    
+                <div class="boxEnvio">
+    
+                  <a href="" class="iconeSoma"> <span>&#43</span></a>
+                        
+                    <input type="text" placeholder="Digite sua mensagem">
+                    <img src="./img/camera.jpeg" alt="" width="28" id="imgcamera">
+                    <img src="./img/gravador.jpeg" alt="" width="22" id="imggravador">
+    
+                </div>
+    
+            </div>
+            <div id="botoes" align="center">
+               <a href="novochamado2.html"><button>VOLTAR</button></a>
+               <a href="#abrirModalCancelamento"><button>CANCELAR</button></a>
+               <a href="editarchamado4.html"><button>EDITAR</button></a>
+               <a id="chat"><button>CHAT</button></a>
+               
+            </div>
+            <br><br>
+        </section>
+
+        <div class="modal" id="abrirModalCancelamento" >
+
+            <h2>Cancelar</h2>
+        
+            <p>Você deseja realmente cancelar esse chamado?</p>
+        
+            <a href="index.html" id="cancelarChamado"><button>Sim</button></a>  <a href="#fechar" ><button>Não</button></a>
+        
+        </div>
+
+
+        <script>
+
+           let btnCancel = document.getElementById("cancelarChamado");
+
+            btnCancel.addEventListener('click', () => {
+
+                alert("Chamado cancelado com sucesso!")
+                
+            })
+
+            document.getElementById("chat").addEventListener('click', () => {
+
+              
+                document.getElementById("modalChat").classList.toggle('hiddenModal')
+
+            })
+
+        </script>
+
+
+    </body>
+</html>

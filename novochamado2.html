@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="pt">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Novo Chamado</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+
+    <body>
+
+        <!--Cabeçalho-->
+
+        <header>
+            <img src="img/cabeçalho UNICAP.png" id="cabecalho">
+            <a href="Inglês/novochamado.html"><img src="img/englishflag.jpg" id="english" height="20px"></a>
+        </header> 
+
+        <!--Corpo-->
+
+        <section>
+            <img id="logomarca" src="img/logomarca.png" alt="SOS UNICAP" width="150px">
+        </section> <br>
+
+        <h2 class="novoChamado">Novo Chamado</h2><br>
+        
+        <section id="dropdown">
+            <ul class="urgenciaLocalizacao">
+
+                <li>
+                    <div class="selectTipoUrgencia">
+                
+                        <select class="tipoUrgencia">
+                            <option default>Tipo de emergência</option>
+                            <option>Queda</option>
+                            <option>Mal-estar</option>
+                            <option>Incêndio</option>
+                            <option>Outra</option>
+                        </select>
+                    </div>
+                </li>
+                
+                <li>
+                    <div class="selectTipoUrgencia">
+                        <select class="tipoUrgencia">
+                            <option default>Localização</option>
+                            <option default>Bloco</option>
+                            <option>Biblioteca</option>
+                            <option>Capela</option>
+                            <option>Estacionamento</option>  
+                            <option>Não sei</option>  
+                        </select>
+                    </div>
+                </li>
+            </ul>
+            <br>    
+            <p class="legendaEspecifiqueEmergencia">
+                Em caso de necessidade, especifique a localização através dos campos a seguir:
+            </p>
+            
+            <ul class="especificacaoLocalizcao">
+                <li>
+                    <div class="selectTipoUrgencia">
+                  
+                        <select class="tipoUrgencia">
+                            <option default>Escolha o bloco</option>
+                            <option>A</option>
+                            <option>B</option>
+                            <option>C</option>
+                            <option>D</option>
+                            <option>E</option>
+                            <option>G</option>
+                            <option>I</option>
+                            <option>J</option>
+                            <option>R</option>
+                        </select>
+                    </div>
+                </li>
+                              
+                <li>
+                    <div class="selectTipoUrgencia">
+                        <select class="tipoUrgencia">
+                            <option default>Escolha o andar</option>
+                            <option>Térreo</option>
+                            <option>1</option>
+                            <option>2</option>
+                            <option>3</option> 
+                            <option>4</option>
+                            <option>5</option>      
+                            <option>6</option>
+                            <option>7</option>
+                            <option>8</option>
+                            <option>9</option>            
+                        </select>
+                    </div>
+                </li>
+            
+                <li>
+                    <div class="selectTipoUrgencia">
+                        <select class="tipoUrgencia">
+                            <option default>Escolha o Estacionamento</option>
+                            <option>Alunos</option>
+                            <option>Professores</option>
+                        </select>
+                    </div>
+                </li>
+            </ul>
+            <br><br>
+            <div class="">
+
+                <div class="escadas">
+                    <input type="checkbox">
+                    <label for="">Marque aqui caso você se encontre nas escadas de algum bloco.</label>
+
+                </div>
+
+                
+                <br><br>
+
+
+                <div class="paciente">
+
+                    <label for="">Você é o paciente da ocorrência?</label>
+                    <input type="radio" id="simPaciente" name="paciente" value="sim"> 
+                    <label for="sim">Sim</label>
+                    <input type="radio" id="naoPaciente" name="paciente" value="nao">
+                    <label for="nao">Não</label><br>
+                </div>
+                    
+                <div class="fichaMedica">
+                   
+                    <label for="">Seus dados médicos existente no cadastro da UNICAP podem ser incluídos na ocorrência?  </label>
+                    <input type="radio" id="simDadosMedicos" name="dadosMedicos" value="sim"> 
+                    <label for="sim">Sim</label>
+                    <input type="radio" id="naoDadosMedicos" name="dadosMedicos" value="nao">
+                    <label for="nao">Não</label><br>
+                </div>
+                <br><br>
+
+
+                <ul class="botoesVoltaOk">
+
+                    <li><a href="loginsemcpf.html"><button>VOLTAR</button></a></li>
+                    <li><a href="resumochamadoand4.html"><button>OK</button></a></li>
+                </ul>
+                <br>
+            </div>
+
+        </section>       
+            
+
+    </body>
+</html>
